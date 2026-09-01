@@ -64,10 +64,34 @@ Linux follows a hierarchical tree structure that makes navigation simple and log
      ![proc](/file_hierarchy/Screenshots/proc.png)
     
   - /root: The independent home directory of super user also called root user.
+
+     ![root](/file_hierarchy/Screenshots/root.png)
+    
   - /run: It stores last volatile runtime data since the last system boot.
+
+     ![run](/file_hierarchy/Screenshots/run.png)
+    
   - /snap: The default mount point where files and folders for installed snap packages resides.
+
+     ![snap](/file_hierarchy/Screenshots/snap.png)
+    
   - /srv: This directory contains the site-specific data that is served by this system. For example: Data and scripts that serve for web servers.
+
+     ![srv](/file_hierarchy/Screenshots/srv.png)
+
   - /sys: The virtual filesystem that exposes information about the system's hardware drivers and kernel configuration settings.
+
+     ![sys](/file_hierarchy/Screenshots/sys.png)
+    
   - /tmp: This directory stores temporary files created during program execution.
+
+     ![tmp](/file_hierarchy/Screenshots/tmp.png)
+
   - /usr: The Unix System Resources folder. It serves as the second hierarchy for user utilities and software.
+
+     ![usr](/file_hierarchy/Screenshots/usr.png)
+    
   - /var: These are the variable files that continuously change while the system runs.
+
+     ![var](/file_hierarchy/Screenshots/var.png)
+    
