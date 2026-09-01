@@ -7,13 +7,13 @@
   <h2>Popular File Systems:</h2>
   <li type = "none">
     <ul>
-      <b>FAT (File Allocation Table):</b> An older file system used by older versions of Windows. It could not handle growing storage demands, lacked data security, and easily corrupted during power loss.
+      <b>FAT (File Allocation Table):</b> An older file system used by older versions of Windows. It could not handle growing storage demands, lacked data security, and easily corrupted during power loss. Partition size is only upto 2 TB.
     </ul>
     <ul>
-      <b>NTFS (New Technology File System):</b> A modern file system used by Windows. It provides features such as file and folder permissions, compression and encryption.
+      <b>NTFS (New Technology File System):</b> A modern file system used by Windows. It provides features such as file and folder permissions, compression and encryption. Partition size is 8 PB (Petabytes). 
     </ul>
     <ul>
-      <b>ext (Extended File System):</b> A file system commonly used on Linux and Unix-based operating systems.
+      <b>ext (Extended File System):</b> A file system commonly used on Linux and Unix-based operating systems. 
     </ul>
     <ul>
       <b>HFS (Hierarchical File System): </b>A file system used by macOS.
