@@ -77,11 +77,9 @@ Linux follows a hierarchical tree structure that makes navigation simple and log
     
   - /srv: This directory contains the site-specific data that is served by this system. For example: Data and scripts that serve for web servers.
 
-     ![srv](/file_hierarchy/Screenshots/srv.png)
 
   - /sys: The virtual filesystem that exposes information about the system's hardware drivers and kernel configuration settings.
 
-     ![sys](/file_hierarchy/Screenshots/sys.png)
     
   - /tmp: This directory stores temporary files created during program execution.
 
