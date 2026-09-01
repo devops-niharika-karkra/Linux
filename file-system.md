@@ -7,7 +7,7 @@
   <h2>Popular File Systems:</h2>
   <li type = "none">
     <ul>
-      <b>FAT (File Allocation Table):</b> An older file system used by older versions of Windows. 
+      <b>FAT (File Allocation Table):</b> An older file system used by older versions of Windows. It could not handle growing storage demands, lacked data security, and easily corrupted during power loss.
     </ul>
     <ul>
       <b>NTFS (New Technology File System):</b> A modern file system used by Windows. It provides features such as file and folder permissions, compression and encryption.
