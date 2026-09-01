@@ -12,7 +12,7 @@ Linux follows a hierarchical tree structure that makes navigation simple and log
 ## Let's learn about all files and folder in this hierarchy:
 
   - /(root): It is main directory also referred as parent directory under which all files and folders reside
-          [root_dir]()
+    ![root_dir](/Screenshots/root_dir.jpg)
   - /bin: This directory contains essential commands and binaries needed by all users. For example: cd, ls, pwd, cat, etc.
   - /sbin: This directory contains administrative binaries like iptables, firewall, init, etc.
   - /boot: This directory stores required to boot the operating system. GRUB files are located under /boot
