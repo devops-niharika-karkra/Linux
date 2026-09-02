@@ -32,3 +32,21 @@
 ```
 
 ---
+
+# rmdir
+
+***rmdir*** stands for remove directory. It let you delete empty directories.
+
+### To remove an empty directory:
+```
+  rmdir <directory-name>
+```
+
+### For removing parent directory
+```
+  rmdir -p parent/child
+```
+### To display the message after removing the directory
+```
+  rmdir -v dir1 dir2 dir3
+```
