@@ -33,7 +33,7 @@
 
 ---
 
-# rmdir
+# Command: rmdir
 
 ***rmdir*** stands for remove directory. It let you delete empty directories.
 
