@@ -7,6 +7,8 @@ If the tree in not already installed, then you can run the following to command 
   sudo apt update && sudo apt install tree
 ```
 
+## UseCases Of Tree Command
+
 ### To display only directories
 ```
   tree -d
