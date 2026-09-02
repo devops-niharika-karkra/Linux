@@ -1,7 +1,7 @@
 # Command: Touch
 ***touch*** is used for creating empty file. 
 We need to specify the file extension to define the type of file like .html, .py, .sh, etc. 
-Without extension touch by default create a txt file. 
+Without extension touch by default create a txt file. If the file already exists then only the time stamp is changed.
 
 ### Here are some popular extensions that we use,
 
