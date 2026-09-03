@@ -7,5 +7,15 @@ to desired location and also to rename a file or directory in the same location.
   mv [Options] source destination
 ```
 
-##Use-Cases of mv
+## Use-Cases of mv
+
+### To rename the file 
+```
+  mv old-file.txt new-file.txt
+```
+
+### To move file from current location to destination location
+```
+  mv 
+```
 
