@@ -99,5 +99,11 @@ It also keeps the record of all the files or work done using the file called vim
 ### To delete characters: 
 ```
   x  #To delete single character or character under cursor
-  d  #To delete single 
+  D  #To delete single line
+  (num)dd  #To delete multiple lines
 ```
+
+### To copy and paste in vim
+```
+  yy  #It yanks (Vim's term for copy) the current line.
+  p:  #p pastes the content after the cursor
