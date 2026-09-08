@@ -14,3 +14,9 @@
 | Home-Directory | not created by default (requires -m to flag) | Automatically created |
 | Password setup | set with passwd cmd | prompts you to set a password |
 | Availability   | Universal- available in all distros | Provides debian, ubuntu, RHEL, CentOS, etc |
+
+---
+
+## Discussing both the methods in details:
+
+  - 
