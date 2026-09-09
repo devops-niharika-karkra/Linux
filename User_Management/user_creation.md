@@ -17,19 +17,57 @@
 
 ---
 
-## Creating user with useradd:
+## Use-Cases of useradd:
 
 ### Creating only user
  ```
    sudo useradd <username>
  ```
+
 <img width="630" height="92" alt="image" src="https://github.com/user-attachments/assets/88c9ed78-d7e3-4341-850f-e12e0ca09117" />
 
+### Deleting user
+```
+  sudo userdel <username>
+```
+
+<img width="641" height="28" alt="image" src="https://github.com/user-attachments/assets/dc2b3855-2661-43f9-ac74-e9636ea8cce3" />
+
 ### Creating user with home directory
+  This command helps to assign a pre-defined directory as a home-directory of user manually.
+```
+  sudo useradd -d path/to/dir <username>
+```
+
+<img width="776" height="346" alt="image" src="https://github.com/user-attachments/assets/d76267f5-dbdb-4234-a9c2-5bfc6681860f" />
+
+### Deleting user with home directory
+home directory must have the ownership of user
+```
+  sudo userdel -r <username>
+```
+
+<img width="782" height="122" alt="image" src="https://github.com/user-attachments/assets/750502cc-bc94-4ee9-927d-be7812982d30" />
+
+### Creating user with home directory.
+No need to assign any directory manually
 ```
   sudo useradd -m <username>
 ```
+<img width="782" height="146" alt="image" src="https://github.com/user-attachments/assets/2fae1372-dff1-4f27-a0d8-f6fdce998876" />
 
+### Deleting user with home directory
+```
+  sudo usermod -r <user-name>
+```
 
+<img width="783" height="175" alt="image" src="https://github.com/user-attachments/assets/fa4e3aac-b267-4e9b-9971-b56e965d239c" />
+
+### creating user with password
+
+```
+  sudo useradd -m -p $(openssl passwd -6 "123456") demo 
+```
+<img width="1028" height="185" alt="image" src="https://github.com/user-attachments/assets/180c3972-2203-43c6-acce-848ce4ec7107" />
 
 ### 
