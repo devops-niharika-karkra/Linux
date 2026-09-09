@@ -17,6 +17,19 @@
 
 ---
 
-## Discussing both the methods in details:
+## Creating user with useradd:
 
-  - 
+### Creating only user
+ ```
+   sudo useradd <username>
+ ```
+<img width="630" height="92" alt="image" src="https://github.com/user-attachments/assets/88c9ed78-d7e3-4341-850f-e12e0ca09117" />
+
+### Creating user with home directory
+```
+  sudo useradd -m <username>
+```
+
+
+
+### 
