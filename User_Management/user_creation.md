@@ -70,4 +70,24 @@ No need to assign any directory manually
 ```
 <img width="1028" height="185" alt="image" src="https://github.com/user-attachments/assets/180c3972-2203-43c6-acce-848ce4ec7107" />
 
-### 
+### Creating user to get the prompt to change password on first login
+```
+  sudo useradd -m -p $(openssl passwd -6 "123456") demo && sudo chage -d -0 <user-name>
+  or
+  sudo passwd -e <user-name>
+```
+
+### Creating user with an expiry date
+```
+  sudo useradd -e <date> <user-name>
+```
+
+### creating user with description 
+```
+  sudo useradd -c "Write user description here..." <user-name>
+```
+
+### Create a User with a Specific Login Shell
+```
+  sudo useradd -s /bin/<shell-name> <user>
+```
