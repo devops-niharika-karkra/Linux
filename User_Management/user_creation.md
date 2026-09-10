@@ -92,6 +92,20 @@ No need to assign any directory manually
   sudo useradd -s /bin/<shell-name> <user>
 ```
 
+### Create a user without group
+```
+  sudo useradd -N <username>
+  or
+  sudo useradd <username> --no-user-group
+```
+
+### Create system user
+```
+  sudo useradd -M -N -g nogroup -s /usr/sbin/nologin demo3
+```
+
+---
+
 ## Use-Cases of adduser
 
 ### Creating an user
