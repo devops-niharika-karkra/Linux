@@ -119,6 +119,4 @@ Once you run this command a user creation wizard runs and you will have to fill 
 ### Creating user with different configuration file
 ```
   sudo adduser <username> --conf <filename.conf>
-```
-
-### 
+``` 
