@@ -91,3 +91,34 @@ No need to assign any directory manually
 ```
   sudo useradd -s /bin/<shell-name> <user>
 ```
+
+## Use-Cases of adduser
+
+### Creating an user
+```
+  sudo adduser <username>
+```
+Once you run this command a user creation wizard runs and you will have to fill all the necessary information it will ask for. Otherwise you will get difficulty in sorting user.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/e13f26a8-aab8-4bff-aa71-c84037675306" />
+
+### Creating an user with a specific login shell
+```
+  sudo adduser <username> --shell </path/to/shell>
+```
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/90f80614-f8d2-4b7d-8a67-05ae29449dee" />
+
+### Creating user without home directory
+```
+  sudo adduser --no-create-home <username>
+```
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/b87f3899-b748-4a65-a592-083af5b59ef7" />
+
+### Creating user with different configuration file
+```
+  sudo adduser <username> --conf <filename.conf>
+```
+
+### 
