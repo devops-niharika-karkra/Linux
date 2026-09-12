@@ -46,4 +46,4 @@ who <OPTIONS>
   who -u
 ```
 
-#WARNING: Modern versions of systemd have officially dropped utmp support due to which who from coreutils has nothing to read and simply outputs a blank line.
+**#WARNING:** Modern versions of systemd have officially dropped utmp support due to which who from coreutils has nothing to read and simply outputs a blank line.
