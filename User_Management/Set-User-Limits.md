@@ -10,7 +10,7 @@ These situations can cause:
   - System instability
 
 
-## What are user resource limits??
+## What are user resource limits?
   - The user resource limit is the limit of a particular resource a user or process can consume.
 
 ###  Some commonly controlled resources:
@@ -26,7 +26,8 @@ These situations can cause:
   - Soft Limit
   - Hard Limit 
 
-## **_Soft Limit_** is the limit that is currently being applied to user or process by the operating system. The regular user can increase this limit, but new value cannot be higher than the hard limit.
+## **_Soft Limit_**
+The limit that is currently being applied to user or process by the operating system. The regular user can increase this limit, but new value cannot be higher than the hard limit.
   **For example**: If the hard limit is 100 then user can increase soft limit upto 100 only and cannot go beyond it.
 
 ### Basic syntax:
@@ -88,3 +89,17 @@ These situations can cause:
 ```
   ulimit -l
 ```
+
+## **_Hard Limit_**
+### Hard limit is the maximum amount of system resources that a user or process is allowed to use. A hard limit is set by system administrator. A regular user cannot set the value of hard limit.
+
+### Basic Syntax
+```
+  ulimit -H<OPTIONS>
+```
+
+### To check the hard limit  of the user resource 
+```
+ulimit -Hn
+```
+
