@@ -1,6 +1,10 @@
 # w Command
 **_w_** is a command displays who is logged on and what they are doing.
 
+### Basic Syntax:
+```
+  w
+```
 ### Basic output detail:
 
 - USER: Name of the logged-in user
@@ -20,3 +24,34 @@
 - To verify unexpected remote logins
 - To diagnose load or performance issues
 
+### Use-Cases of **_w_** command:
+
+### To display short format.
+```
+  w -s
+```
+
+### To ignores the username while figuring out the current process and cpu times.
+```
+  w -u
+```
+
+### To remove header 
+```
+  w -h
+```
+
+### To display ip instead of hostname
+```
+  w -i
+```
+
+### To find logged-in users by checking their terminals.
+```
+  w -t
+```
+
+### To display pid of the login process
+```
+  w -p
+```
