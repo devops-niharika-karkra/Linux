@@ -3,7 +3,7 @@
 
 ### Basic Syntax:
 ```
-  w
+  w <options> <user>
 ```
 ### Basic output detail:
 
