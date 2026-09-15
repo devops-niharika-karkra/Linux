@@ -81,7 +81,8 @@
   chmod [0-7] <filename>
 ```
 
-# 0-7 Octal notations 
+
+## 0-7 Octal notations 
 
 | 0-7 | Permissions | 
 |:---:|:-----------:|
