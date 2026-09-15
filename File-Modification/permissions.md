@@ -76,4 +76,20 @@
   chmod o+/-[mode] <filename>
 ```
 
+## To set permissions using octal notations
+```
+  chmod [0-7] <filename>
+```
 
+# 0-7 Octal notations 
+
+| 0-7 | Permissions | 
+|:---:|:-----------:|
+|0|---|
+|1|--x|
+|2|-w-|
+|3|-wx|
+|4|r--|
+|5|r-x|
+|6|rw-|
+|7|rwx|
