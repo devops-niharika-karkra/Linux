@@ -34,4 +34,45 @@
 
 ## Use-Cases of chmod command
 
-### To add permissions 
+### To add permissions to all user, group and others.     
+```
+  chmod a+rwx <filename>  # All three permissions
+```
+```
+  chmod a+r <filename>  #read permission
+```
+```
+  chmod a+w <filename> #write permissions
+```
+```
+  chmod a+x <filename> #execute permissions 
+```
+### To remove all permissions of all user, groupp and other.
+```
+  chmod a-rwx <filename>  #All three permissions
+```
+```
+  chmod a-r <filename>  #read permission
+```
+```
+  chmod a-w <filename>  #write permissions 
+```
+```
+  chmod a-x <filename>  #execute permissions
+```
+
+### To add/remove permissions to user only.
+```
+  chmod u+/-[mode] <filename>  
+```
+
+### To add/remove permissions to group only.
+```
+  chmod g+/-[mode] <filename>
+```
+
+### To add/remove permissions to other only.
+```
+  chmod o+/-[mode] <filename>
+```
+
