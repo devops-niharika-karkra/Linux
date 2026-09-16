@@ -94,3 +94,42 @@
 |5|`r-x`| Read and execute |
 |6|`rw-`| Read and write |
 |7|`rwx`| Read, write, and execute |
+
+
+## Stickybit
+### To prevent file deletion and renaming inside a shared directory
+```
+  chmod -t <filename>
+```
+
+### To set permissions with reference file
+```
+  chmod --reference=<refer-filename> <filename>
+```
+
+### To set permissions of file recursively in a directory 
+```
+  chmod -R <permissions> <dirname>
+```
+
+### To set permissions of all directories in particular location
+```
+  find /path/to/directory -type d -exec chmod <permission> {} \;
+```
+
+### To set permissions of all files in particular location
+```
+  find /path/to/directory -type f -exec chmod <permission> {} \;
+```
+
+### To set permissions in verbose mode.
+```
+  chmod -v <permissions> <filename>
+```
+
+### To display the output only when a change is made.
+```
+  chmod -c <permisions> <filename>
+```
+
+
