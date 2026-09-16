@@ -82,15 +82,15 @@
 ```
 
 
-## 0-7 Octal notations 
+## Table of Octal notations  
 
-| 0-7 | Permissions | 
-|:---:|:-----------:|
-|0|---|
-|1|--x|
-|2|-w-|
-|3|-wx|
-|4|r--|
-|5|r-x|
-|6|rw-|
-|7|rwx|
+| 0-7 | Symbolic | Permissions|
+|:---:|:--------:|:----------:|
+|0|`---`| No permissions |
+|1|`--x`| Execute only |
+|2|`-w-`| Write only|
+|3|`-wx`| Write and execute |
+|4|`r--`| Read only |
+|5|`r-x`| Read and execute |
+|6|`rw-`| Read and write |
+|7|`rwx`| Read, write, and execute |
