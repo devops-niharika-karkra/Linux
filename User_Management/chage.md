@@ -50,5 +50,5 @@
 
 ### To fix user on a broken computer or a backup computer drive plugged-into your computer.
 ```
-  sudo change -R <username>
+  sudo chage -R <username>
 ```
