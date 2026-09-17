@@ -65,3 +65,23 @@ sudo addgroup <OPTION> <name>
 ```
   sudo addgroup <groupname> <username>
 ```
+
+## groupdel
+ **_groupdel_** is used to delete an existing group. It just remove the group from system while leave the users as it is.
+
+##  Basic syntax
+```
+  sudo groupdel <OPTION> <name>
+```
+
+### Use-Case of groupdel
+
+### To delete group
+```
+  sudo groupdel <name>
+```
+
+### To delete group forcefully
+```
+  sudo groupdel -f <name>
+```
