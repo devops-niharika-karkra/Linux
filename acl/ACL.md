@@ -1,12 +1,12 @@
-# acl 
-**_acl_** stands for Access Control List. It allow us to set specific permissions for individual user and groups. ACL Allow us to set permissions in a detailed manner giving us greater flexibility and control over who can access what.
+# ACLs 
+**_ACL_** stands for Access Control List. It allow us to set specific permissions for individual user and groups. ACL Allow us to set permissions in a detailed manner giving us greater flexibility and control over who can access what.
 
-## Uses of acl:
+## Uses of ACL:
   - Granular control: Assign permissions to individual user or group without changing the file's ownership.
   - Flexibility: Manage access for multiple users or group with different permission levels.
   - Enhanced Collaborations: Share files and directories securely in multi-user environments.
 
-## We have following commands to work with acl
+## We have following commands to work with ACL
 `getacl` : We use this command to view the permissions are given to file or directory.
 
 `setacl`: We use this command to set the permissions.
