@@ -30,7 +30,7 @@ is a command-line utility for modifying user account. You can use it to add a us
 
 ### To move content to new location from current home directory
 ```
-  sudo usermod -d /new/home/directory -m <username>
+  sudo usermod -m /new/home/directory -m <username>
 ```
 
 ### To change the shell of user
