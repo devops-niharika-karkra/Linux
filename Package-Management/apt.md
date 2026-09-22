@@ -32,6 +32,11 @@ to avoid manual confirmation add -y to command
   sudo apt install <package>  -y
 ```
 
+### To reinstall a package
+```
+  sudo apt reinstall <package>
+```
+
 ### To remove package.
 ```
   sudo apt remove <package> 
