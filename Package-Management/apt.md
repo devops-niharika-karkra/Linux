@@ -77,3 +77,17 @@ to avoid manual confirmation add -y to command
   sudo add-get-repository <name-of-repository>
 ```
 
+### To lock package version to avoid upgrade 
+```
+  sudo apt-mark hold <package>
+```
+
+### To unlock a package
+```
+  sudo apt-mark unhold <package>
+```
+
+### To view all locked packages 
+```
+  sudo apt-mark showhold
+```
