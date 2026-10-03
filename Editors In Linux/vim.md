@@ -107,3 +107,10 @@ It also keeps the record of all the files or work done using the file called vim
 ```
   yy  #It yanks (Vim's term for copy) the current line.
   p:  #p pastes the content after the cursor
+```
+
+### For undo and redo
+```
+  u: for undo
+  ctrl + r: for redo
+```
